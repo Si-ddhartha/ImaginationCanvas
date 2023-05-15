@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@500&display=swap');
+
+:root {
+  --n1: 114;
+  --n2: 221;
+  --n3: 155;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  /* background-color: brown; */
+}
+
+.left{
+  width: 40vw;
+  /* background-color: aquamarine; */
+}
+
+.header{
+  font-family: 'Ysabeau', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.prompt-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.prompt-query{
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.prompt-generate{
+  width: 40%;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #B2FFFF, #ADD8E6);
+  padding: 6px 10px;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.info{
+  margin-top: 4rem;
+}
+
+.type1 {
+  font-family: monospace;
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+    linear-gradient(#00DFFC 0 0) 0 0;
+  background-size:calc(var(--n1)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n1)*.05s) steps(var(--n1)) forwards;
+}
+
+.type2 {
+  opacity: 0;
+  font-family: monospace;
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+    linear-gradient(#00DFFC 0 0) 0 0;
+  background-size:calc(var(--n2)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n2)*.05s) steps(var(--n2)) forwards,
+    a ease-in forwards;
+  animation-delay: 6s;
+}
+
+.type3 {
+  opacity: 0;
+  font-family: monospace;
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+    linear-gradient(#00DFFC 0 0) 0 0;
+  background-size:calc(var(--n3)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n3)*.05s) steps(var(--n3)) forwards,
+    a ease-in forwards;
+  animation-delay: 17.3s;
+}
+
+@keyframes t{
+  from {background-size:0 200%}
+}
+
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}
+
+@keyframes a{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/* .right{
+  background-color: beige;
+} */
