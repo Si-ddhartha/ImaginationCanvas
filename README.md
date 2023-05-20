@@ -13,4 +13,4 @@ https://github.com/Si-ddhartha/ImaginationCanvas/assets/74449359/daf8b0fa-2c0a-4
 
 
 ## Click below to view some sample generated images
-https://tinyurl.com/239s26bs
+[https://tinyurl.com/239s26bs](https://tinyurl.com/yhd4c9j5)
