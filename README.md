@@ -6,3 +6,6 @@ With just a simple query string, it can generate stunning visuals that correspon
 
 ## Video Demo
 https://drive.google.com/file/d/10ReWFk4MgcP2-mGqn16lvXSTCSY3_RLE/view?usp=share_link
+
+## Click below to view some sample generated images
+https://tinyurl.com/239s26bs
